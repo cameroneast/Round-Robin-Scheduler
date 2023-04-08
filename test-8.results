@@ -1,0 +1,190 @@
+Job entering(time = 10):   Job 1: start = 10; total needed = 10; running time = 0
+Current state of system:
+  Job 1: start = 10; total needed = 10; running time = 0
+
+Job entering(time = 12):   Job 2: start = 12; total needed = 10; running time = 0
+Current state of system:
+  Job 1: start = 10; total needed = 10; running time = 2
+  Job 2: start = 12; total needed = 10; running time = 0
+
+Job finished(time = 20):   Job 1: start = 10; total needed = 10; running time = 10
+Current state of system:
+  Job 2: start = 12; total needed = 10; running time = 0
+
+Job finished(time = 30):   Job 2: start = 12; total needed = 10; running time = 10
+Current state of system:
+  No jobs in the system.
+
+
+Job entering(time = 50):   Job 3: start = 50; total needed = 20; running time = 0
+Current state of system:
+  Job 3: start = 50; total needed = 20; running time = 0
+
+Job entering(time = 55):   Job 4: start = 55; total needed = 20; running time = 0
+Current state of system:
+  Job 3: start = 50; total needed = 20; running time = 5
+  Job 4: start = 55; total needed = 20; running time = 0
+
+Job entering(time = 60):   Job 5: start = 60; total needed = 20; running time = 0
+Current state of system:
+  Job 3: start = 50; total needed = 20; running time = 10
+  Job 4: start = 55; total needed = 20; running time = 0
+  Job 5: start = 60; total needed = 20; running time = 0
+
+Job finished(time = 70):   Job 3: start = 50; total needed = 20; running time = 20
+Current state of system:
+  Job 4: start = 55; total needed = 20; running time = 0
+  Job 5: start = 60; total needed = 20; running time = 0
+
+Job being replaced(time = 70):   Job 4: start = 55; total needed = 20; running time = 0
+Job being restarted(time = 70):   Job 5: start = 60; total needed = 20; running time = 0
+Current state of system:
+  Job 5: start = 60; total needed = 20; running time = 0
+  Job 4: start = 55; total needed = 20; running time = 0
+
+Job finished(time = 90):   Job 5: start = 60; total needed = 20; running time = 20
+Current state of system:
+  Job 4: start = 55; total needed = 20; running time = 0
+
+Job being replaced(time = 90):   Job 4: start = 55; total needed = 20; running time = 0
+Job being restarted(time = 90):   Job 4: start = 55; total needed = 20; running time = 0
+Current state of system:
+  Job 4: start = 55; total needed = 20; running time = 0
+
+Job finished(time = 110):   Job 4: start = 55; total needed = 20; running time = 20
+Current state of system:
+  No jobs in the system.
+
+
+
+Job entering(time = 150):   Job 6: start = 150; total needed = 10; running time = 0
+Current state of system:
+  Job 6: start = 150; total needed = 10; running time = 0
+
+Job entering(time = 151):   Job 7: start = 151; total needed = 10; running time = 0
+Current state of system:
+  Job 6: start = 150; total needed = 10; running time = 1
+  Job 7: start = 151; total needed = 10; running time = 0
+
+Job entering(time = 152):   Job 8: start = 152; total needed = 10; running time = 0
+Current state of system:
+  Job 6: start = 150; total needed = 10; running time = 2
+  Job 7: start = 151; total needed = 10; running time = 0
+  Job 8: start = 152; total needed = 10; running time = 0
+
+Job entering(time = 153):   Job 9: start = 153; total needed = 10; running time = 0
+Current state of system:
+  Job 6: start = 150; total needed = 10; running time = 3
+  Job 7: start = 151; total needed = 10; running time = 0
+  Job 8: start = 152; total needed = 10; running time = 0
+  Job 9: start = 153; total needed = 10; running time = 0
+
+Job finished(time = 160):   Job 6: start = 150; total needed = 10; running time = 10
+Current state of system:
+  Job 7: start = 151; total needed = 10; running time = 0
+  Job 8: start = 152; total needed = 10; running time = 0
+  Job 9: start = 153; total needed = 10; running time = 0
+
+Job finished(time = 170):   Job 7: start = 151; total needed = 10; running time = 10
+Current state of system:
+  Job 8: start = 152; total needed = 10; running time = 0
+  Job 9: start = 153; total needed = 10; running time = 0
+
+Job being replaced(time = 170):   Job 8: start = 152; total needed = 10; running time = 0
+Job being restarted(time = 170):   Job 9: start = 153; total needed = 10; running time = 0
+Current state of system:
+  Job 9: start = 153; total needed = 10; running time = 0
+  Job 8: start = 152; total needed = 10; running time = 0
+
+Job finished(time = 180):   Job 9: start = 153; total needed = 10; running time = 10
+Current state of system:
+  Job 8: start = 152; total needed = 10; running time = 0
+
+Job finished(time = 190):   Job 8: start = 152; total needed = 10; running time = 10
+Current state of system:
+  No jobs in the system.
+
+
+
+
+Job entering(time = 250):   Job 10: start = 250; total needed = 10; running time = 0
+Current state of system:
+  Job 10: start = 250; total needed = 10; running time = 0
+
+Job entering(time = 251):   Job 11: start = 251; total needed = 10; running time = 0
+Current state of system:
+  Job 10: start = 250; total needed = 10; running time = 1
+  Job 11: start = 251; total needed = 10; running time = 0
+
+Job entering(time = 252):   Job 12: start = 252; total needed = 10; running time = 0
+Current state of system:
+  Job 10: start = 250; total needed = 10; running time = 2
+  Job 11: start = 251; total needed = 10; running time = 0
+  Job 12: start = 252; total needed = 10; running time = 0
+
+Job entering(time = 253):   Job 13: start = 253; total needed = 10; running time = 0
+Current state of system:
+  Job 10: start = 250; total needed = 10; running time = 3
+  Job 11: start = 251; total needed = 10; running time = 0
+  Job 12: start = 252; total needed = 10; running time = 0
+  Job 13: start = 253; total needed = 10; running time = 0
+
+Job entering(time = 254):   Job 14: start = 254; total needed = 10; running time = 0
+Current state of system:
+  Job 10: start = 250; total needed = 10; running time = 4
+  Job 11: start = 251; total needed = 10; running time = 0
+  Job 12: start = 252; total needed = 10; running time = 0
+  Job 13: start = 253; total needed = 10; running time = 0
+  Job 14: start = 254; total needed = 10; running time = 0
+
+Job finished(time = 260):   Job 10: start = 250; total needed = 10; running time = 10
+Current state of system:
+  Job 11: start = 251; total needed = 10; running time = 0
+  Job 12: start = 252; total needed = 10; running time = 0
+  Job 13: start = 253; total needed = 10; running time = 0
+  Job 14: start = 254; total needed = 10; running time = 0
+
+Job finished(time = 270):   Job 11: start = 251; total needed = 10; running time = 10
+Current state of system:
+  Job 12: start = 252; total needed = 10; running time = 0
+  Job 13: start = 253; total needed = 10; running time = 0
+  Job 14: start = 254; total needed = 10; running time = 0
+
+Job being replaced(time = 270):   Job 12: start = 252; total needed = 10; running time = 0
+Job being restarted(time = 270):   Job 13: start = 253; total needed = 10; running time = 0
+Current state of system:
+  Job 13: start = 253; total needed = 10; running time = 0
+  Job 14: start = 254; total needed = 10; running time = 0
+  Job 12: start = 252; total needed = 10; running time = 0
+
+Job finished(time = 280):   Job 13: start = 253; total needed = 10; running time = 10
+Current state of system:
+  Job 14: start = 254; total needed = 10; running time = 0
+  Job 12: start = 252; total needed = 10; running time = 0
+
+Job finished(time = 290):   Job 14: start = 254; total needed = 10; running time = 10
+Current state of system:
+  Job 12: start = 252; total needed = 10; running time = 0
+
+Job being replaced(time = 290):   Job 12: start = 252; total needed = 10; running time = 0
+Job being restarted(time = 290):   Job 12: start = 252; total needed = 10; running time = 0
+Current state of system:
+  Job 12: start = 252; total needed = 10; running time = 0
+
+Job finished(time = 300):   Job 12: start = 252; total needed = 10; running time = 10
+Current state of system:
+  No jobs in the system.
+
+
+
+
+
+
+Job entering(time = 400):   Job 15: start = 400; total needed = 10; running time = 0
+Current state of system:
+  Job 15: start = 400; total needed = 10; running time = 0
+
+Job finished(time = 410):   Job 15: start = 400; total needed = 10; running time = 10
+Current state of system:
+  No jobs in the system.
+

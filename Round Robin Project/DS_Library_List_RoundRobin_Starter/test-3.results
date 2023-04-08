@@ -1,0 +1,13 @@
+Job entering(time = 20):   Job 1: start = 20; total needed = 30; running time = 0
+Current state of system:
+  Job 1: start = 20; total needed = 30; running time = 0
+
+Job being replaced(time = 40):   Job 1: start = 20; total needed = 30; running time = 20
+Job being restarted(time = 40):   Job 1: start = 20; total needed = 30; running time = 20
+Current state of system:
+  Job 1: start = 20; total needed = 30; running time = 20
+
+Job finished(time = 50):   Job 1: start = 20; total needed = 30; running time = 30
+Current state of system:
+  No jobs in the system.
+

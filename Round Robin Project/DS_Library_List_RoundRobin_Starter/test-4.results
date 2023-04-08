@@ -1,0 +1,120 @@
+Job entering(time = 20):   Job 1: start = 20; total needed = 100; running time = 0
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 0
+
+Job entering(time = 25):   Job 2: start = 25; total needed = 60; running time = 0
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 5
+  Job 2: start = 25; total needed = 60; running time = 0
+
+Job entering(time = 30):   Job 3: start = 30; total needed = 40; running time = 0
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 10
+  Job 2: start = 25; total needed = 60; running time = 0
+  Job 3: start = 30; total needed = 40; running time = 0
+
+Job entering(time = 35):   Job 3: start = 35; total needed = 40; running time = 0
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 15
+  Job 2: start = 25; total needed = 60; running time = 0
+  Job 3: start = 30; total needed = 40; running time = 0
+  Job 3: start = 35; total needed = 40; running time = 0
+
+Job being replaced(time = 40):   Job 1: start = 20; total needed = 100; running time = 20
+Job being restarted(time = 40):   Job 2: start = 25; total needed = 60; running time = 0
+Current state of system:
+  Job 2: start = 25; total needed = 60; running time = 0
+  Job 3: start = 30; total needed = 40; running time = 0
+  Job 3: start = 35; total needed = 40; running time = 0
+  Job 1: start = 20; total needed = 100; running time = 20
+
+Job being replaced(time = 60):   Job 2: start = 25; total needed = 60; running time = 20
+Job being restarted(time = 60):   Job 3: start = 30; total needed = 40; running time = 0
+Current state of system:
+  Job 3: start = 30; total needed = 40; running time = 0
+  Job 3: start = 35; total needed = 40; running time = 0
+  Job 1: start = 20; total needed = 100; running time = 20
+  Job 2: start = 25; total needed = 60; running time = 20
+
+Job being replaced(time = 80):   Job 3: start = 30; total needed = 40; running time = 20
+Job being restarted(time = 80):   Job 3: start = 35; total needed = 40; running time = 0
+Current state of system:
+  Job 3: start = 35; total needed = 40; running time = 0
+  Job 1: start = 20; total needed = 100; running time = 20
+  Job 2: start = 25; total needed = 60; running time = 20
+  Job 3: start = 30; total needed = 40; running time = 20
+
+Job being replaced(time = 100):   Job 3: start = 35; total needed = 40; running time = 20
+Job being restarted(time = 100):   Job 1: start = 20; total needed = 100; running time = 20
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 20
+  Job 2: start = 25; total needed = 60; running time = 20
+  Job 3: start = 30; total needed = 40; running time = 20
+  Job 3: start = 35; total needed = 40; running time = 20
+
+Job being replaced(time = 120):   Job 1: start = 20; total needed = 100; running time = 40
+Job being restarted(time = 120):   Job 2: start = 25; total needed = 60; running time = 20
+Current state of system:
+  Job 2: start = 25; total needed = 60; running time = 20
+  Job 3: start = 30; total needed = 40; running time = 20
+  Job 3: start = 35; total needed = 40; running time = 20
+  Job 1: start = 20; total needed = 100; running time = 40
+
+Job being replaced(time = 140):   Job 2: start = 25; total needed = 60; running time = 40
+Job being restarted(time = 140):   Job 3: start = 30; total needed = 40; running time = 20
+Current state of system:
+  Job 3: start = 30; total needed = 40; running time = 20
+  Job 3: start = 35; total needed = 40; running time = 20
+  Job 1: start = 20; total needed = 100; running time = 40
+  Job 2: start = 25; total needed = 60; running time = 40
+
+Job finished(time = 160):   Job 3: start = 30; total needed = 40; running time = 40
+Current state of system:
+  Job 3: start = 35; total needed = 40; running time = 20
+  Job 1: start = 20; total needed = 100; running time = 40
+  Job 2: start = 25; total needed = 60; running time = 40
+
+Job being replaced(time = 160):   Job 3: start = 35; total needed = 40; running time = 20
+Job being restarted(time = 160):   Job 1: start = 20; total needed = 100; running time = 40
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 40
+  Job 2: start = 25; total needed = 60; running time = 40
+  Job 3: start = 35; total needed = 40; running time = 20
+
+Job being replaced(time = 180):   Job 1: start = 20; total needed = 100; running time = 60
+Job being restarted(time = 180):   Job 2: start = 25; total needed = 60; running time = 40
+Current state of system:
+  Job 2: start = 25; total needed = 60; running time = 40
+  Job 3: start = 35; total needed = 40; running time = 20
+  Job 1: start = 20; total needed = 100; running time = 60
+
+Job finished(time = 200):   Job 2: start = 25; total needed = 60; running time = 60
+Current state of system:
+  Job 3: start = 35; total needed = 40; running time = 20
+  Job 1: start = 20; total needed = 100; running time = 60
+
+Job being replaced(time = 200):   Job 3: start = 35; total needed = 40; running time = 20
+Job being restarted(time = 200):   Job 1: start = 20; total needed = 100; running time = 60
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 60
+  Job 3: start = 35; total needed = 40; running time = 20
+
+Job being replaced(time = 220):   Job 1: start = 20; total needed = 100; running time = 80
+Job being restarted(time = 220):   Job 3: start = 35; total needed = 40; running time = 20
+Current state of system:
+  Job 3: start = 35; total needed = 40; running time = 20
+  Job 1: start = 20; total needed = 100; running time = 80
+
+Job finished(time = 240):   Job 3: start = 35; total needed = 40; running time = 40
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 80
+
+Job being replaced(time = 240):   Job 1: start = 20; total needed = 100; running time = 80
+Job being restarted(time = 240):   Job 1: start = 20; total needed = 100; running time = 80
+Current state of system:
+  Job 1: start = 20; total needed = 100; running time = 80
+
+Job finished(time = 260):   Job 1: start = 20; total needed = 100; running time = 100
+Current state of system:
+  No jobs in the system.
+
